@@ -1,0 +1,71 @@
+{
+	"folders": {},
+	"connections": {
+		"mysql8-1921386072c-4162d4e76682d6b8": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "localhost",
+			"save-password": true,
+			"configuration": {
+				"host": "localhost",
+				"port": "3306",
+				"url": "jdbc:mysql://localhost:3306/",
+				"configurationType": "URL",
+				"home": "MySQL Server 8.0",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"auth-model": "native"
+			}
+		},
+		"mysql8-1921388d6e3-72a084c0deec3300": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "test2",
+			"save-password": true,
+			"configuration": {
+				"host": "localhost",
+				"port": "3306",
+				"database": "test2",
+				"url": "jdbc:mysql://localhost:3306/test2",
+				"configurationType": "MANUAL",
+				"home": "MySQL Server 8.0",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"auth-model": "native"
+			}
+		},
+		"mysql8-192138a8a50-4c58e9026b56af48": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "bloggingapplication",
+			"save-password": true,
+			"configuration": {
+				"host": "localhost",
+				"port": "3306",
+				"database": "bloggingapplication",
+				"url": "jdbc:mysql://localhost:3306/bloggingapplication",
+				"configurationType": "MANUAL",
+				"home": "MySQL Server 8.0",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"auth-model": "native"
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"smart-commit": false,
+			"smart-commit-recover": true,
+			"auto-close-transactions": true,
+			"close-transactions-period": 1800,
+			"auto-close-connections": true,
+			"close-connections-period": 14400
+		}
+	}
+}
